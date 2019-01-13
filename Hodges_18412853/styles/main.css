@@ -1,0 +1,332 @@
+/* Main Body Editing */
+body {  
+    margin: 0px;
+    flex-direction: column;
+    background-color: #ccc;
+}
+
+/* Header Editing */
+h1 { 
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    color: #219D34;
+    text-align: right;
+    background-color: #2C2C2C;
+    padding-right: 30px;
+    margin: 0;
+    border: none;
+}
+
+/*Navigation Editing */
+nav {
+    background: #363636;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    padding-top: 5;
+    padding-bottom: 5;
+    margin: 0;
+}
+nav a:hover {
+    background-color: #66866B;
+    color: #ccc
+}
+
+nav a.active {
+    color:#ccc;
+    background-color: #2D5132;
+}
+/*Main Body Editing*/
+.intro {
+    display: flex;
+    text-align: center;
+    font-family: 'Titillium Web';
+    padding-bottom: 10px;
+    background-color: grey;
+    margin-left:40px;
+    margin-right:40px;
+    border: 2px solid #2D5132;
+    border-top: none;
+    border-bottom: none;
+    font-size: 18px;
+    padding: 10px;
+    color: #ccc;
+}
+
+.wrapper {
+    display: flex;
+    flex: 1 0 auto;
+    padding: 50;
+    background-color: grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Titillium Web';
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid #2D5132;
+    border-top: none;
+    border-bottom: none;
+}
+/*Bio Images*/
+.lydiaimg{
+    flex-flow: wrap;
+    justify-self: center;
+    padding: 10px;
+}
+
+.markimg{
+    flex-flow: wrap;
+    justify-self: center;
+    padding: 10px;
+}
+/*Bio 1*/
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #2D5132;
+    margin: 10px;
+}
+
+.lydiabio {
+    display: flex;
+    padding: 10px;
+    flex: 0 1 auto;
+    width: auto;
+    flex-flow: column wrap;
+    font-size: 18px;
+    border: 2px solid #2D5132;
+    margin-right: 10px;
+}
+/*Bio 2*/
+.aside {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #2D5132;
+    margin: 10px;
+}
+
+.markbio {
+    display: flex;
+    padding: 10px;
+    flex: 0 1 auto;
+    width: auto;
+    flex-flow: column wrap;
+    font-size: 18px;
+    border: 2px solid #2D5132;
+    margin-right: 10px;
+}
+
+/*Footer Editing*/
+footer {
+    background: #363636;
+    display: block;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    height: 100%;
+    margin-top: 0px;
+    
+}
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    height: 10;
+    text-align: center;
+}
+ footer a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+.contentref {
+    text-align: center;
+    color: #ccc;
+    font-family: 'Titillium Web';
+    display: block;
+}
+/*Reviews Page Editing*/
+.telrev {
+    display: flex;
+    padding: 10px;
+    flex: 0 1 auto;
+    width: auto;
+    flex-flow: column wrap;
+    font-size: 16px;
+}
+.telimg {
+    flex-flow: wrap;
+    justify-self: center;
+    padding: 25px;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    display: flex;
+    border: 3px solid #2D5132;
+}
+.review {
+    display: flex;
+    flex: 1 0 auto;
+    padding: 50;
+    background-color: grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Titillium Web';
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid #2D5132;
+    border-top: none;
+    border-bottom: none;
+}
+
+.washimg {
+    flex-flow: wrap;
+    justify-self: center;
+    padding: 25px;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    display: flex;
+    border: 3px solid #2D5132;
+}
+
+.washrev {
+    display: flex;
+    padding: 10px;
+    flex: 0 1 auto;
+    width: auto;
+    flex-flow: column wrap;
+    font-size: 16px;
+}
+/*Tutorials Page Editing*/
+.vidtitle {
+    display: flex;
+    text-align: center;
+    font-family: 'Titillium Web';
+    padding-bottom: 10px;
+    background-color: grey;
+    margin-left:40px;
+    margin-right:40px;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    color: #ccc;
+    justify-content: center;
+}
+.video {
+    display: flex;
+    flex: 1 0 auto;
+    padding: 50;
+    background-color: grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    border: 2px solid #2D5132;
+    border-top: none;
+    border-bottom: none;
+    margin-top: none;
+    margin-bottom: none;
+    justify-content: center;
+}
+/*Jobs CSS Editing*/
+.job1 {
+    display: flex;
+    padding: 10px;
+    flex: 0 1 auto;
+    width: auto;
+    flex-flow: nowrap;
+    font-size: 16px;
+}
+.jobtitle {
+    display: block;
+    text-align: center;
+    font-family: 'Titillium Web';
+    padding-bottom: 10px;
+    background-color: grey;
+    margin-left:40px;
+    margin-right:40px;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    color: #ccc;
+    justify-content: center;
+    justify-self: center;
+    font-weight: bold;
+}
+
+/* Navigation Flexbox */
+@media screen and (min-width: 768px){
+    nav ul{
+        display: flex;
+    }
+
+    nav li {
+       flex: 1 1 0;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .intro {
+        display: flex;
+    }
+    footer {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 30em) {
+    .main {
+        flex: 1 0 auto;
+    }
+}
+
+@media (min-width: 30em) {
+    .wrapper {
+        flex-direction: row;
+    }
+    .main {
+        flex: 1 0 auto;
+        width: 50%
+    }
+    .aside {
+        flex: 1 0 auto;
+        width: 50%;
+        
+    }
+}
